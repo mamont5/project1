@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Капибара</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    </head>
+    <body>
+        <header>
+            <div class="wrapper">
+                <div class="header-wrapper">
+                    <img src="img/logokap.jpg" alt="header logo" class="header-logo">
+                    <div class="header-menu">
+                        <a href="#" class="header__link">Тема</a>
+                        <a href="#" class="header__link">Информация</a>
+                        <a href="#video" class="header__link">Видосик</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="main">
+              <div class="wrapper">
+                <div class="main-wrapper">
+                  <div class="main-left">
+                    <h1 class="main__title">
+                       Это мой сайт
+                     </h1>
+                     <p class="main__text">
+                        О капибарах
+                      </p>
+                    </div>
+                  <img src="/img/kapibar1.jpg" alt="main image" class="main__img">
+                </div>
+              </div>
+            </section>
+            <section class="background">
+              <div class="wrapper">
+                <div class="background-wrapper">
+                  <h2 class="background__title">
+                    Информация о капибарах
+                  </h2>
+                  <img src="/img/kapibar2.jpg" alt="background section image"   class="background__image">
+                  <p class="background__text">
+                    Капибаара, или водосвинка, — полуводное травоядное млекопитающее из подсемейства водосвинковых , один из двух ныне существующих видов рода водосвинки. Капибара — самый крупный среди современных грызунов. Длина тела взрослой капибары достигает 1—1,35 м, высота в холке — 50—60 см. Самцы весят 34—63 кг, а самки — 35—65,5 кг. Самки, как правило, крупнее самцов.
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="video" id="#video">
+              <div class="wrapper">
+                <did class="video-wrapper">
+                  <h2 class="video_title">
+                    Видео:
+                  </h2>
+                  <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/8Pj-YEQbojk?si=tXsUgpMKKASBP7vG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+              </div>
+            </section>
+            <section class="section-creater">
+              <div class="wrapper">
+                <form class="section-creater_wrapper">
+                  <div>
+                    <input id="titleCreator" type="text" class="section-creater_input">
+                    <button id="addTitle" class="sectioncreatorbutton" type="reset">
+                      Добавить заголовок
+                    </button>
+                  </div>
+                  <div>
+                    <input id="textcreator" type="text" class="section-creater_input">
+                      <button id="addtext" class="sectioncreatorbutton" type="reset">
+                        Добавить описание 
+                      </button>
+                  </div>
+                </form>
+              </div>
+            </section>
+            <section class="project">
+              <div class="wrapper">
+                <div class="project_wrapper">
+                  <div class="project_left">
+                    <h2 id="projectTitle" class="project-title">
+                      Title
+                    </h2>
+                    <p id="projectText" class="project-text">
+                      Text Text Text Text Tc ext Text Text Text Text Text Text Text Text Text 
+                    </p>
+                  </div>
+                  <div id="projectImage" class="project_image"></div>
+                </div>
+              </div>
+            </section>
+          </main>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>      
+    </body>
+</html>
